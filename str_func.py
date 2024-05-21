@@ -3,3 +3,9 @@ def words_UP(value: str):
     return value.upper()
 value = input()
 
+def first_word_up(value: str):
+"""Делаем заглавными первые буквы каждой строки"""
+return value.capitalize()
+
+
+print(f"{first_word_up(value)}")
